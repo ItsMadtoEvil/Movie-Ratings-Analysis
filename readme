@@ -1,1 +1,220 @@
 
+# 🎬 Movie Ratings Analysis Using NumPy, Pandas & Matplotlib
+
+A complete exploratory data analysis (EDA) project that analyzes movie ratings, budgets, and revenues using **NumPy**, **Pandas**, and **Matplotlib**. The project demonstrates data cleaning, statistical analysis, grouping operations, and data visualization to uncover insights from a movie dataset.
+
+---
+
+## 📌 Project Overview
+
+This project performs an end-to-end analysis of a movie dataset by:
+
+* Loading data from a GitHub-hosted CSV file
+* Cleaning and preprocessing the dataset
+* Performing statistical analysis using NumPy
+* Analyzing movies by genre, director, and release year
+* Creating insightful visualizations with Matplotlib
+* Identifying the highest-rated and highest-grossing movies
+
+This project is ideal for beginners learning **Python for Data Analysis** and **Exploratory Data Analysis (EDA)**.
+
+---
+
+## 🚀 Features
+
+* ✅ Data Loading from GitHub
+* ✅ Data Cleaning & Preprocessing
+* ✅ Missing Value Handling
+* ✅ Duplicate Removal
+* ✅ Statistical Analysis using NumPy
+* ✅ GroupBy Analysis using Pandas
+* ✅ Data Visualization using Matplotlib
+* ✅ Movie Insights and Summary Statistics
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* NumPy
+* Pandas
+* Matplotlib
+* Jupyter Notebook
+
+---
+
+## 📂 Project Structure
+
+```text
+Movie-Ratings-Analysis/
+│
+├── Movie_Ratings_Analysis_Using_NumPy,_Pandas,_and_Matplotlib.ipynb
+├── movie_dataset.csv
+├── README.md
+└── images/                     # (Optional - Save generated charts here)
+```
+
+---
+
+## 📊 Dataset
+
+The dataset contains movie-related information such as:
+
+| Column   | Description        |
+| -------- | ------------------ |
+| Movie    | Movie Title        |
+| Genre    | Movie Genre        |
+| Director | Director Name      |
+| Year     | Release Year       |
+| Rating   | IMDb/User Rating   |
+| Budget   | Movie Budget       |
+| Revenue  | Box Office Revenue |
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Movie-Ratings-Analysis.git
+```
+
+Move into the project directory:
+
+```bash
+cd Movie-Ratings-Analysis
+```
+
+Install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib
+```
+
+---
+
+## ▶️ Running the Project
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
+Movie_Ratings_Analysis_Using_NumPy,_Pandas,_and_Matplotlib.ipynb
+```
+
+Run all cells to reproduce the complete analysis.
+
+---
+
+## 📈 Analysis Performed
+
+### Data Exploration
+
+* Display first rows
+* Dataset dimensions
+* Column information
+* Data types
+* Missing value analysis
+
+### Data Cleaning
+
+* Remove duplicate records
+* Convert numeric columns
+* Handle missing values
+
+### Statistical Analysis
+
+* Mean Rating
+* Median Rating
+* Standard Deviation
+* Minimum Rating
+* Maximum Rating
+
+### Grouped Analysis
+
+* Average Rating by Genre
+* Average Rating by Director
+* Average Rating by Release Year
+
+---
+
+## 📉 Visualizations
+
+The notebook generates several visualizations:
+
+* 📊 Average Rating by Genre (Bar Chart)
+* 📊 Average Rating by Director (Bar Chart)
+* 📈 Average Ratings Over Years (Line Chart)
+* 🔵 Budget vs Rating (Scatter Plot)
+* 🔵 Revenue vs Rating (Scatter Plot)
+* 🏆 Top 10 Highest Rated Movies (Horizontal Bar Chart)
+
+---
+
+## 🔍 Key Insights
+
+* Identify the highest-rated movie.
+* Find the movie with the highest box office revenue.
+* Compare average ratings across genres.
+* Analyze director performance.
+* Observe rating trends over the years.
+* Explore the relationship between budget, revenue, and ratings.
+
+---
+
+## 📚 Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Statistical Analysis
+* Data Visualization
+* Pandas Data Manipulation
+* NumPy Operations
+* Python Programming
+* Jupyter Notebook
+
+---
+
+## 💡 Future Improvements
+
+* Add Seaborn visualizations
+* Perform correlation analysis
+* Build an interactive dashboard
+* Develop a movie recommendation system
+* Apply machine learning models for rating prediction
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Atul Singh Chouhan**
+
+* Python Developer
+* Data Analyst
+* Machine Learning Enthusiast
+
+If you found this project useful, don't forget to ⭐ the repository!
